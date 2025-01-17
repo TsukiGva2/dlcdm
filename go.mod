@@ -6,16 +6,10 @@ toolchain go1.23.4
 
 require (
 	github.com/MyTempoesp/flick v0.0.0-20250116140740-131872ea417b
-	github.com/mytempoesp/rabbit v0.0.1-alpha.0.20240912131652-58dc17b9d7de
-	github.com/prometheus-community/pro-bing v0.5.0
-	github.com/rabbitmq/amqp091-go v1.10.0
+	github.com/TsukiGva2/flick v0.0.0-20250117185641-e7e8e2ae5deb
 )
 
 require (
 	github.com/MyTempoESP/serial v0.0.0-20180830185346-98f6abe2eb07 // indirect
-	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
-	github.com/google/uuid v1.6.0 // indirect
-	golang.org/x/net v0.34.0 // indirect
-	golang.org/x/sync v0.9.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 )

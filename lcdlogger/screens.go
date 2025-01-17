@@ -3,7 +3,7 @@ package lcdlogger
 import (
 	"fmt"
 
-	"github.com/MyTempoesp/flick"
+	"github.com/TsukiGva2/flick"
 )
 
 const (
