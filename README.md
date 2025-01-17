@@ -1,2 +1,2 @@
-# dlcdm
-Dumb LiquidCrystal Display Manager. Controling my arduino's LCD from go using NanoForth.
+# Analytics
+Analyzes the data from rabbitmq and creates useful statistics
