@@ -19,11 +19,11 @@ func main() {
 
 		switch display.Screen {
 		case lcdlogger.SCREEN_TEST:
-			display.ScreenTest(0, 0)
+			display.ScreenTest(int(time.Now().Second() % 2))
 		}
 
 		display.SwitchScreens()
 
-		time.Sleep(500 * time.Millisecond)
+		time.Sleep(100 * time.Millisecond)
 	}
 }

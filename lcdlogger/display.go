@@ -19,7 +19,7 @@ func NewSerialDisplay() (display SerialDisplay, err error) {
 
 	if err != nil {
 
-		log.Printf("Erro ao iniciar a comunicação com o arduino: %v\n", err)
+		log.Printf("Communication error: %v\n", err)
 
 		return
 	}
@@ -54,7 +54,7 @@ func (display *SerialDisplay) SwitchScreens() {
 	if res[0] == '-' && !display.switchButtonToggled {
 
 		display.Screen++
-		display.Screen %= 5
+		display.Screen %= SCREEN_COUNT
 
 		display.switchButtonToggled = true
 	}

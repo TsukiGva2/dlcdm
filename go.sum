@@ -1,7 +1,5 @@
 github.com/MyTempoESP/serial v0.0.0-20180830185346-98f6abe2eb07 h1:TLZ2LtndxFdoXFfYIpwH2wtgl+98GOy1mwSySr6oT9Y=
 github.com/MyTempoESP/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:AMD66h4XcM+rqoOGBeQP6eb2VKZSgts9nOme51AaHjM=
-github.com/MyTempoesp/flick v0.0.0-20250116140740-131872ea417b h1:xx8lRN9CUuEL4imMm3qgjNBHdR0UJ6pjx6eUQfFyOD4=
-github.com/MyTempoesp/flick v0.0.0-20250116140740-131872ea417b/go.mod h1:63efREBf6B0a4vNZnQeF9rf+aEMMeCGX8rfEP9uHYZA=
 github.com/TsukiGva2/flick v0.0.0-20250117185641-e7e8e2ae5deb h1:ukYB5+dsv3MHP/SMxsGbtD+tSNLv83XbnItKRfodTz0=
 github.com/TsukiGva2/flick v0.0.0-20250117185641-e7e8e2ae5deb/go.mod h1:Qe20qBUWaWqK17oEa7x3PlgkiNk4qN+JB1pBT6ZDpFc=
 golang.org/x/sys v0.29.0 h1:TPYlXGxvx1MGTn2GiZDhnjPA9wZzZeGKHHmKhHYvgaU=

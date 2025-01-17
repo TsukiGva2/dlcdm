@@ -19,7 +19,7 @@ const (
 	SAD_FACE
 )
 
-func (display *SerialDisplay) ScreenTest(foo, bar int) {
+func (display *SerialDisplay) ScreenTest(face int) {
 
 	display.Forth.Send(
 		fmt.Sprintf(
@@ -31,7 +31,7 @@ func (display *SerialDisplay) ScreenTest(foo, bar int) {
 			HELLO, SAD_FACE,
 			WORLD, HAPPY_FACE,
 			HELLO, HAPPY_FACE,
-			WORLD, SAD_FACE,
+			WORLD, face,
 		),
 	)
 }
