@@ -3,11 +3,11 @@ package lcdlogger
 import (
 	"log"
 
-	"github.com/MyTempoesp/flick"
+	"github.com/TsukiGva2/flick"
 )
 
 type SerialDisplay struct {
-	Forth  *flick.MyTempo_Forth
+	Forth  *flick.Forth
 	Screen int
 
 	switchButtonToggled bool

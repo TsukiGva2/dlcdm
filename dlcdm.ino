@@ -43,16 +43,16 @@ void setup() {
   pinMode(7, INPUT_PULLUP);
 }
 
-void forth_value() {
+void forth_literal() {
 
   int v = n4_pop();
 
-  if (v > VALUE_COUNT || v < 0) {
+  if (v > LIT_COUNT || v < 0) {
 
     return;
   }
 
-  lcd.print(values[v]);
+  lcd.print(literals[v]);
 }
 
 void forth_label() {
